@@ -45,6 +45,8 @@ describe PeopleController do
     end
   end
 
+  private
+
   def person_to_create(is_valid: true)
     person_double = Person.create(first_name: "Bob")
 
